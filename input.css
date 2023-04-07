@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form__add__product:not(:placeholder-shown) + label,
+.form__add__product:focus + label,
+.form__contact:not(:placeholder-shown) + label,
+.form__contact:focus + label {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  font-size: 0.75rem;
+  top: 0;
+}
