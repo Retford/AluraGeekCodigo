@@ -23,3 +23,8 @@
   margin-top: 0.5rem;
   padding-left: 0.5rem;
 }
+
+#precioProducto {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
